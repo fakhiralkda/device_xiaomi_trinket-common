@@ -20,6 +20,12 @@ persist.vendor.qcom.bluetooth.twsp_state.enabled=false
 ro.bluetooth.a2dp_offload.supported=true
 vendor.qcom.bluetooth.soc=cherokee
 
+# Crypto
+ro.crypto.dm_default_key.options_format.version=2
+ro.crypto.volume.filenames_mode=aes-256-cts
+ro.crypto.volume.metadata.method=dm-default-key
+ro.crypto.volume.options=::v2
+
 # Data
 persist.vendor.data.iwlan.enable=true
 persist.vendor.data.mode=concurrent
